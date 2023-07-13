@@ -40,16 +40,28 @@ nav a {
 /* Header section */
 .header-sector {
   background-color: #fff8f3;
+  background-image: url("../Images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 580px;
 }
+
 .banner {
-  padding: 30px 30px 0px 150px;
+  padding: 0px 30px 0px 20px;
+
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.banner img {
-  width: 440px;
-  height: 430px;
+
+.developer-img {
+  width: 100px;
+  height: 427px;
+  margin-bottom: 40px;
+}
+.profile-pic {
+  width: 500px;
+  height: 465px;
 }
 .banner-title {
   color: #474747;
