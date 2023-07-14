@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
     <title>Protfolio website</title>
     <link rel="stylesheet" href="style/style.css" />
   </head>
@@ -191,8 +197,44 @@
             </div>
           </div>
         </div>
+        <div class="download-cv">
+          <buttton class="btn-primary">Download CV</buttton>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-coloumn">
+        <div class="footer-part">
+          <h3 class="section-title">Let's Connect</h3>
+          <p class="section-description">
+            Please fill out the form on this section to contact with me or call
+            between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+          </p>
+          <div class="service-links">
+            <a href=""><img src="Images/icons/facebook.png" alt="" /></a
+            ><a href=""><img src="Images/icons/twitter.png" alt="" /></a
+            ><a href=""><img src="Images/icons/insta.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-coloumn">
+        <div class="footer-part">
+          <h3 class="section-title">Let's Message Me</h3>
+
+          <form class="contact" action="">
+            <input type="text" placeholder="Your name" />
+            <input type="email" name="" placeholder="Email" id="" />
+            <textarea
+              name=""
+              placeholder="Message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input class="btn-primary" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
